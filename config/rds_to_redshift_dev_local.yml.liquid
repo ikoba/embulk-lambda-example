@@ -1,0 +1,19 @@
+in:
+  type: mysql
+  host: 127.0.0.1
+  user: {{ env.RDS_USER }}
+  password: {{ env.RDS_PASSWORD }}
+  database: {{ env.RDS_DB }}
+  table: {{ env.RDS_TABLE }}
+out:
+  type: redshift
+  host: 127.0.0.1
+  user: {{ env.REDSHIFT_USER }}
+  password: {{ env.REDSHIFT_PASSWORD }}
+  schema: {{ env.REDSHIFT_SCHEMA }}
+  database: {{ env.REDSHIFT_DB }}
+  table: {{ env.REDSHIFT_TABLE }}
+  s3_bucket: {{ env.REDSHIFT_S3_BUCKET }}
+  mode: truncate_insert
+  aws_auth_method: profile
+  aws_profile_name: stv-dev
