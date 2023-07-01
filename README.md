@@ -139,4 +139,4 @@ The Embulk v0.11 has various changes from the previous stable version v0.9.
 
 Please see below for the chnages.
 
-[Embulk v0.11 is coming soon](https://www.embulk.org/articles/2023/04/13/embulk-v0.11-is-coming-soon.html1)
+[Embulk v0.11 is coming soon](https://www.embulk.org/articles/2023/04/13/embulk-v0.11-is-coming-soon.html)
